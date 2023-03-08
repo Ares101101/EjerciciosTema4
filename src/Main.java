@@ -6,17 +6,19 @@ public class Main {
             System.out.println("es positivo");
         } else {System.out.println("es negativo");}
 
+        int numeroDoWhile = 0;
+        do {
+            numeroDoWhile++;
+            System.out.println(numeroDoWhile);
+        } while (numeroDoWhile < 1);
+
+
         int numeroWhile = 0;
 
         while (numeroWhile<3){
             System.out.println(numeroWhile);
             numeroWhile++;
         };
-
-        do {
-            System.out.println(numeroWhile);
-            numeroWhile++;
-        } while (numeroWhile <1);
 
 
 
